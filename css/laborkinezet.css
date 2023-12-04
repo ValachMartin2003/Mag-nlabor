@@ -1,0 +1,328 @@
+   
+    /* Elrejtjük a pipát és a checkbox négyzetet */
+    input[type="checkbox"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        position: relative;
+    }
+    
+    /* Töröljük a checkbox négyzetet és a pipát */
+    input[type="checkbox"]::before {
+        content: none;
+    }
+    
+    /* Helyettesítjük a pipát egy egyedi jelzéssel (pl. üres négyzet) */
+    input[type="checkbox"] + label::before {
+       /* content: '☀️'; /* Nap ikon */
+        font-size: 1.5em; /* Ikon mérete */
+        color: #333; /* Alapértelmezett ikon színe */
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        line-height: 1em;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 8px; /* Válassz ki egy megfelelő margót */
+    }
+    
+    /* Elrejtjük a pipát a dark mode esetén és helyettesítjük a napot a hold ikonnal */
+    body.dark-mode input[type="checkbox"] + label::before {
+        /*content: '🌙'; /* Hold ikon dark mode esetén */
+        color: #fff; /* Dark mode ikon színe */
+        border-color: #fff; /* Vonal színe a dark mode esetén */
+    }
+     /* Light Mode Styles */
+     body.light-mode {
+                background-color: #fff;
+                color: #333;
+            }
+    
+            /* Dark Mode Styles */
+            body.dark-mode {
+                background-color: #333;
+                color: #fff;
+            }
+            .dark-mode-indicator {
+              display: inline-block;
+              margin-left: 10px;
+          }
+
+            /* ------------------------------------------------- */
+        .navbar-brand {
+          color: white;
+        }
+    
+        .navbar-nav {
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-around;
+          width: 60%; /* Választhatja meg az ön igényeinek megfelelő szélességet */
+        }
+    
+        .navbar-nav a {
+          color: white;
+          margin: 5px; /* Hozzáadott távolság az elemek között */
+        }
+    
+        .login-icon {
+          color: white;
+        }
+        
+        .dropdown-item{
+         background-color: black;
+         opacity: 0.8;
+         color: #fff;
+         width: 150px;
+         border-radius: 5px;
+        }
+        .iconM{
+          width: 40px;
+        }
+        #buttonK{
+          border: 3px solid black;
+          position: absolute;
+          left: 11%;
+        }
+       
+         
+        .navbar{
+            background-color: #333;
+          }
+                /* Dark Mode Styles */
+      body.dark-mode .navbar {
+         /* Változtasd meg az áhított sötét módbeli háttérszínre */
+          background-color: rgb(247, 58, 0);
+         
+      }
+
+      body.dark-mode .navbar-brand,
+      body.dark-mode .navbar-nav a,
+      body.dark-mode .dropdown-item {
+        color: #333;   /*Változtasd meg az áhított sötét módbeli szövegszínre */
+      }
+     
+      @media (max-width: 767px) {
+      .navbar-text.login-icon {
+        order: 2;
+        margin-left: auto;
+        margin-right: 0;
+      }
+    }
+    @media (max-width: 767px) {
+      .navbar-text.login-icon {
+        order: 2;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      /* Hozzáadott stílus a lenyíló menühöz */
+      .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-basis: 100%;
+      }
+
+      .navbar-collapse {
+        width: 100%;
+        justify-content: flex-end;
+      }
+
+      .navbar-toggler {
+        order: 1;
+        margin-left: 0;
+        margin-right: auto;
+      }
+    }
+    .menulogo
+    {
+      position: absolute;
+      right: 150px;
+    }
+
+    /*laborvizsgalat oldal*/
+    .wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        position: relative;
+        width: 325px;
+        height: 450px;
+        background: #000;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    }
+    
+    .poster {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .poster::before {
+        content: '';
+        position: absolute;
+        bottom: -45%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        transition: .3s;
+    }
+    
+    .card:hover .poster::before {
+        bottom: 0;
+    }
+    
+    .poster img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: .3s;
+    }
+    
+    .card:hover .poster img {
+        transform: scale(1.1);
+    }
+    
+    .details {
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        height: auto;
+        padding: 1.5em 1.5em 2em;
+        background: #000a;
+        backdrop-filter: blur(16px) saturate(120%);
+        transition: .3s;
+        color: #fff;
+        z-index: 2;
+    }
+    
+    .card:hover .details {
+        bottom: 0;
+    }
+    
+    .scroller {
+      max-width: 800%;
+    }
+    
+    .scroller__inner {
+      padding-block: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    
+    .scroller[data-animated="true"] {
+      overflow: hidden;
+      -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+      );
+      mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+    }
+    /*Mozgatja aképet*/
+    .scroller[data-animated="true"] .scroller__inner {
+      width: max-content;
+      flex-wrap: nowrap;
+      animation: scroll var(--_animation-duration, 40s)
+        var(--_animation-direction, forwards) linear infinite;
+    }
+    
+    .scroller[data-direction="right"] {
+      --_animation-direction: reverse;
+    }
+    
+    .scroller[data-direction="left"] {
+      --_animation-direction: forwards;
+    }
+    
+    .scroller[data-speed="fast"] {
+      --_animation-duration: 20s;
+    }
+    
+    .scroller[data-speed="slow"] {
+      --_animation-duration: 60s;
+    }
+    
+    @keyframes scroll {
+      to {
+        transform: translate(calc(-50% - 0.5rem));
+      }
+    }
+    /*laborvizsgalat oldal*/
+    
+    
+    .pozitive1{padding: 20px;}
+   .pozitive2{padding: 20px;}
+
+   .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(490px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid > article {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: #fff;
+  color: black;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 20px;
+}
+/* Médialekérdezés a kis készülékekhez (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr; /* Egy oszlop a kis készülékekhez */
+  }
+}
+.container{padding: 20px;}
+
+/* footer */
+ /* Alapértelmezett stílusok */
+ footer {
+  background-color: #000000;
+  padding: 20px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode footer {
+  background-color: rgb(247, 58, 0);
+}
+
+body.dark-mode .footer,
+body.dark-mode .footer-nav a,
+body.dark-mode .footer-item {
+  color: #333;
+}
+/* footer */
+
