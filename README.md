@@ -64,8 +64,8 @@ Szakorvosi vizsgálatok
 
 Laborvizsgálatok
 
--Megnevezés                          Ár (HUF)
--Csontanyagcsere csomag              8.000 Ft – 19.000 Ft
+- Megnevezés                          Ár (HUF)
+- Csontanyagcsere csomag              8.000 Ft – 19.000 Ft
 
 ### Képek beillesztése
 
