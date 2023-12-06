@@ -57,6 +57,7 @@ Lent pedig Időpontkérés jeleniti meg pl.:
 Középut jelenik meg az oldal meg nevezése
 Lista 5 árat tartalmaz már mint 4 et
 baloldalon két tex jelenik meg mind a ketöbe van egy lista pl:
+
 Szakorvosi vizsgálatok
 
 - Megnevezés                          Ár (HUF)
@@ -65,7 +66,7 @@ Szakorvosi vizsgálatok
 Laborvizsgálatok
 
 - Megnevezés                          Ár (HUF)
-- Csontanyagcsere csomag              8.000 Ft – 19.000 Ft
+- Első vizsgálat                      15.000 Ft – 42.000 Ft
 
 ### Képek beillesztése
 
