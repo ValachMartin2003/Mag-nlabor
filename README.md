@@ -37,14 +37,14 @@ Lent középen 2 card text van benne.
 
 Legalul pedig 4 kép látható szöveggel együtt.
 
-## README.md formázás
-
-A README.md fájlban a szövegeket Markdown formázással teheted szebbé. Például:
 
 ### Képek beillesztése
 
-```markdown
-![Laborvizsgálat kép1](link1.jpg)
-![Laborvizsgálat kép2](link2.jpg)
+```Mozgó képek (fent):
+![Laborvizsgálat kép1](banner6.jpg)
+![Laborvizsgálat kép2](banner4.jpg)
+![Laborvizsgálat kép3](banner2.jpg)
+![Laborvizsgálat kép4](banner3.jpg)
+![Laborvizsgálat kép5](banner5.jpg)
 // ... folytatódik
 
