@@ -28,7 +28,7 @@ Készítette: Bálint Gergő
    - **Ár**
 
 
-###  **Laborvizsgálat **
+### Laborvizsgálat 
 
 9 kép található a Laborvizsgálati oldalon.
 
