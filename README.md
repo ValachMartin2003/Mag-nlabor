@@ -8,9 +8,9 @@
 # Kozeput pedig az elerheto oldalak talalhatoak;
 #pl.: Kezdolap
   
- |Két lenyilo menu van: |
-  |--Bemutatkozás--| 
-  |--Szolgáltatás-- |
+ #|Két lenyilo menu van: |
+  #|--Bemutatkozás--| 
+  #|--Szolgáltatás-- |
 |Bemutatkozás:|
   --Rolunk--
   --Idovonal--
