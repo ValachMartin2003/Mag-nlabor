@@ -8,6 +8,13 @@ Készítette: Bálint Gergő
 - Bal oldalon a logo kép és logo szöveg
 - Jobb oldalon a dark mode és a fiók található
 - Középen az elérhető oldalak találhatóak, például a Kezdőlap
+  
+## Footer felépítés
+
+- Bal oldalon az oldalak szerepelnek mint a navbarba anyi kulombség hogy lent hejezkednek el egymás alat
+- Jobb oldalon az elérhetoségek szerepelnek pl.: Telefon,Gmail...
+- Középen a térkép találhato
+- Lent pedig a hitelesités szerepel &copy; 
 
 ## Két lenyíló menü
 
@@ -32,7 +39,31 @@ Lent középen 2 card text van benne.
 
 Legalul pedig 4 kép látható szöveggel együtt.
 
+### Kapcsolat
+Balodalon jelenik meg a Kapcsolat Középut pedig a 2 leirás        Üzenet: jobb oldalon jelenik meg 
+3 card helyezkedik el amiben szerepelnek az elérhetöségek
+Lent pedig Időpontkérés jeleniti meg pl.:
+Válasszon ki egy alkalmas napot:
+Páciens vezetéknév:
+Páciens keresztnév:
+Születési dátum: TAJ-szám:
+Anyja leánykori neve:
+Email címe:
+Telefonszám:
+Időponkérés ez egy gomb 
 
+### Ár
+Középut jelenik meg az oldal meg nevezése
+Lista 5 árat tartalmaz már mint 4 et
+baloldalon két tex jelenik meg mind a ketöbe van egy lista pl:
+Szakorvosi vizsgálatok
+Megnevezés                          Ár (HUF)
+
+Első vizsgálat                      15.000 Ft – 42.000 Ft
+
+Laborvizsgálatok
+Megnevezés                          Ár (HUF)
+Csontanyagcsere csomag              8.000 Ft – 19.000 Ft
 ### Képek beillesztése
 
 ``````markdown
@@ -42,5 +73,13 @@ Legalul pedig 4 kép látható szöveggel együtt.
 ![Laborvizsgálat kép3](banner2.jpg)
 ![Laborvizsgálat kép4](banner3.jpg)
 ![Laborvizsgálat kép5](banner5.jpg)
+// ... folytatódik
+
+``````markdown
+       Négy card (fent):
+![Laborvizsgálat kép1](banner5.jpg)
+![Laborvizsgálat kép2](banner4.jpg)
+![Laborvizsgálat kép3](banner2.jpg)
+![Laborvizsgálat kép4](banner6.jpg)
 // ... folytatódik
 
