@@ -27,7 +27,15 @@ Készítette: Bálint Gergő
    - **Kapcsolat**
    - **Ár**
 
+### Főoldal
+   - Balodalon és jobb oldalon középut meg jelenik a leírás
+   - Mozgó képek 5 db kép  (középut):
+   - Lent egy rovid leirás
 
+### Rólunk
+ - Két card jelenik meg 
+ - rovid leírás balodalon  jobb oldali card ba pedig nyitvatartás  munkatarsak
+ 
 ### Laborvizsgálat 
 
 9 kép található a Laborvizsgálati oldalon.
