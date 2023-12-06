@@ -40,17 +40,17 @@ Lent középen 2 card text van benne.
 Legalul pedig 4 kép látható szöveggel együtt.
 
 ### Kapcsolat
-Balodalon jelenik meg a Kapcsolat Középut pedig a 2 leirás        Üzenet: jobb oldalon jelenik meg 
+Balodalon jelenik meg a Kapcsolat Középut pedig a 2 leirás       -  Üzenet: jobb oldalon jelenik meg 
 3 card helyezkedik el amiben szerepelnek az elérhetöségek
 Lent pedig Időpontkérés jeleniti meg pl.:
-Válasszon ki egy alkalmas napot:
-Páciens vezetéknév:
-Páciens keresztnév:
-Születési dátum: TAJ-szám:
-Anyja leánykori neve:
-Email címe:
-Telefonszám:
-Időponkérés ez egy gomb 
+- Válasszon ki egy alkalmas napot:
+- Páciens vezetéknév:
+- Páciens keresztnév:
+- Születési dátum: TAJ-szám:
+- Anyja leánykori neve:
+- Email címe:
+- Telefonszám:
+- Időponkérés ez egy gomb 
 
 ### Ár
 Középut jelenik meg az oldal meg nevezése
