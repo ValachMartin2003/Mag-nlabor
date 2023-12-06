@@ -40,7 +40,7 @@ Lent középen 2 card text van benne.
 Legalul pedig 4 kép látható szöveggel együtt.
 
 ### Kapcsolat
-Balodalon jelenik meg a Kapcsolat Középut pedig a 2 leirás       -  Üzenet: jobb oldalon jelenik meg 
+Balodalon jelenik meg a Kapcsolat Középut pedig a 2 leirás       
 3 card helyezkedik el amiben szerepelnek az elérhetöségek
 Lent pedig Időpontkérés jeleniti meg pl.:
 - Válasszon ki egy alkalmas napot:
@@ -50,6 +50,7 @@ Lent pedig Időpontkérés jeleniti meg pl.:
 - Anyja leánykori neve:
 - Email címe:
 - Telefonszám:
+- Üzenet: jobb oldalon jelenik meg 
 - Időponkérés ez egy gomb 
 
 ### Ár
@@ -57,13 +58,15 @@ Középut jelenik meg az oldal meg nevezése
 Lista 5 árat tartalmaz már mint 4 et
 baloldalon két tex jelenik meg mind a ketöbe van egy lista pl:
 Szakorvosi vizsgálatok
-Megnevezés                          Ár (HUF)
 
-Első vizsgálat                      15.000 Ft – 42.000 Ft
+- Megnevezés                          Ár (HUF)
+- Első vizsgálat                      15.000 Ft – 42.000 Ft
 
 Laborvizsgálatok
-Megnevezés                          Ár (HUF)
-Csontanyagcsere csomag              8.000 Ft – 19.000 Ft
+
+-Megnevezés                          Ár (HUF)
+-Csontanyagcsere csomag              8.000 Ft – 19.000 Ft
+
 ### Képek beillesztése
 
 ``````markdown
