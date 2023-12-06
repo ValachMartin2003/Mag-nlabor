@@ -20,11 +20,6 @@ Készítette: Bálint Gergő
    - **Kapcsolat**
    - **Ár**
 
-## Bemutatkozás
-
-Itt jelennek meg a bemutatkozással kapcsolatos információk.
-
-## Szolgáltatás
 
 ### Laborvizsgálat
 
@@ -40,7 +35,8 @@ Legalul pedig 4 kép látható szöveggel együtt.
 
 ### Képek beillesztése
 
-```Mozgó képek (fent):
+``````markdown
+       Mozgó képek (fent):
 ![Laborvizsgálat kép1](banner6.jpg)
 ![Laborvizsgálat kép2](banner4.jpg)
 ![Laborvizsgálat kép3](banner2.jpg)
