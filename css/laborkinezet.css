@@ -1,5 +1,5 @@
-body{
-  background-image: url('/img/banner6.jpg');
+#hatter{
+  background-image: url('../img/banner6.jpg');
 }
     /* Elrejtjük a pipát és a checkbox négyzetet */
     input[type="checkbox"] {
